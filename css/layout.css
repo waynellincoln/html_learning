@@ -1,0 +1,48 @@
+
+
+html {
+	background-color: #FFF;
+}
+
+/* Margin-left and margin-right balances the margin on both sides */
+.container {
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-area {
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+}
+
+.main-area {
+	width: 66%;
+	float: left;
+}
+
+.sidebar {
+	width: 34%;
+	float: left;
+}
+
+
+.fix {
+	clear: both;
+}
+
+
+/* group used to deal with clearing of floats */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}

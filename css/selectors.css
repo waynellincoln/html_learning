@@ -1,0 +1,32 @@
+/* Type Selectors - target all h1's for example*/
+h1 {
+	color: orange;
+	text-align: center;
+}
+
+p {
+	color: green;
+	
+}
+
+/* Descendent Selectors - target p within header tags*/
+header p {
+	color: blue;
+}
+
+
+header p span {
+	color: blue;
+}
+
+
+/* Class Selectors - target the specific class*/
+.highlight {
+	background-color: yellow;
+}
+
+
+/* Descendent Selector Mixed with Class Selector */
+footer .highlight {
+	background-color: LightGray;
+}

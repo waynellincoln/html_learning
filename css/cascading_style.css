@@ -1,0 +1,40 @@
+/* CSS can overwrite default values of HTML elements */
+/* H1 element has its wn style. CSS can change this */
+h1{
+    color: green;
+    font-size: 12;
+}
+
+
+/* CSS can overwrite its own default values*/
+/* The footer is part of the body. We are able to bypass the body style and be more specific */
+body{
+    color: green;
+    font-size: 12;
+}
+
+footer{
+    color: red;
+    font-size: 10;
+}
+
+
+/* The more specific the better*/
+/* The footer p overwrites the power of p */
+/* Descendant selectors are more specific than type selectors */
+/* Descendant selectors are more specific than type selectors */
+/* Deeply nested descendant selectors are more specific than shallow nested descendants*/
+/* Class selectors are more specific than type or descendant selectors*/
+/* A descendant selector thtt references a class is more specific than a class only selector*/
+/* For 2 similar rules the one that comes last is more specific*/
+/* Start with generic rules and then get more specific*/
+
+
+
+p{
+    color: green;
+}
+
+footer p{
+    color: blue;
+}
